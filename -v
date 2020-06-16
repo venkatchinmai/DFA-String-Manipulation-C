@@ -1,0 +1,12 @@
+
+./dfa-h -d <dfafile> -v
+This is a simple DFA Implementation. The DFA definition
+is specified via .dfa file; input string is read from stdin.
+In non-verbose mode, print ACCEPT or NOT ACCEPT as the case may be.
+-h
+print usage
+-d <dfafile>
+DFA definition file
+-v
+verbose mode; display machine definition, transitions etc. 
+

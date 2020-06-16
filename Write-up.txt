@@ -1,0 +1,6 @@
+I used c language for this program. From the DFA definition the input is taken as strings and using string comparison all the DFA machine input is taken. 
+After input string string at last it will compare the current state and the final state. If the final state is the current state then the string is accepted.
+
+After giving the file as input it is going to an infinite loop. that is the bug in my program.
+
+Also, for the input file, at the end of file 

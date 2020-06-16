@@ -1,0 +1,61 @@
+States:
+q0    q1    q2    q3    
+    
+Alphabets:
+0    1    
+    
+Final states:
+q3    
+    
+Start state:
+q0
+Transitions:
+q0	0	q0
+q0	1	q1
+q1	0	q1
+q1	1	q2
+q2	0	q2
+q2	1	q3
+q3	0	q3
+q3	1	q3
+current state q0 : input : a -> new state  : 
+current state  : input : * -> new state  : 
+current state  : input : c -> new state  : 
+a*c REJECTED
+current state q0 : input : a -> new state  : 
+current state  : input : a -> new state  : 
+current state  : input : . -> new state  : 
+current state  : input : c -> new state  : 
+aa.c REJECTED
+current state q0 : input : a -> new state  : 
+current state  : input : a -> new state  : 
+current state  : input : a -> new state  : 
+current state  : input : a -> new state  : 
+current state  : input : a -> new state  : 
+current state  : input : . -> new state  : 
+current state  : input : c -> new state  : 
+aaaaa.c REJECTED
+current state q0 : input : a -> new state  : 
+current state  : input : . -> new state  : 
+current state  : input : c -> new state  : 
+current state  : input : . -> new state  : 
+current state  : input : a -> new state  : 
+a.c.a REJECTED
+current state q0 : input : a -> new state  : 
+current state  : input : a -> new state  : 
+current state  : input : a -> new state  : 
+current state  : input : . -> new state  : 
+current state  : input : c -> new state  : 
+aaa.c REJECTED
+current state q0 : input : a -> new state  : 
+current state  : input : . -> new state  : 
+current state  : input : c -> new state  : 
+current state  : input : c -> new state  : 
+current state  : input : c -> new state  : 
+current state  : input : c -> new state  : 
+a.cccc REJECTED
+current state q0 : input : a -> new state  : 
+current state  : input : . -> new state  : 
+current state  : input : c -> new state  : 
+current state  : input : a -> new state  : 
+a.ca REJECTED

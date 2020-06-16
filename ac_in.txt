@@ -1,0 +1,8 @@
+a*c
+aa.c
+aaaaa.c
+a.c.a
+aaa.c
+a.cccc
+a.ca
+END

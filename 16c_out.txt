@@ -1,0 +1,65 @@
+States:
+q0    q1    q2    q3    
+    
+Alphabets:
+0    1    
+    
+Final states:
+q3    
+    
+Start state:
+q0
+Transitions:
+q0	0	q0
+q0	1	q1
+q1	0	q1
+q1	1	q2
+q2	0	q2
+q2	1	q3
+q3	0	q3
+q3	1	q3
+current state q0 : input : 0 -> new state  : q0
+current state q0 : input : 1 -> new state  : q1
+current state q1 : input : 0 -> new state  : q1
+current state q1 : input : 1 -> new state  : q2
+0101 REJECTED
+current state q0 : input : 1 -> new state  : q1
+current state q1 : input : 0 -> new state  : q1
+current state q1 : input : 1 -> new state  : q2
+current state q2 : input : 0 -> new state  : q2
+1010 REJECTED
+current state q0 : input : 0 -> new state  : q0
+current state q0 : input : 1 -> new state  : q1
+current state q1 : input : 0 -> new state  : q1
+current state q1 : input : 1 -> new state  : q2
+current state q2 : input : 0 -> new state  : q2
+current state q2 : input : 1 -> new state  : q3
+010101 ACCEPTED
+current state q0 : input : 0 -> new state  : q0
+current state q0 : input : 1 -> new state  : q1
+current state q1 : input : 1 -> new state  : q2
+current state q2 : input : 0 -> new state  : q2
+current state q2 : input : 1 -> new state  : q3
+current state q3 : input : 0 -> new state  : q3
+current state q3 : input : 1 -> new state  : q3
+0110101 ACCEPTED
+current state q0 : input : 0 -> new state  : q0
+current state q0 : input : 1 -> new state  : q1
+current state q1 : input : 0 -> new state  : q1
+current state q1 : input : 1 -> new state  : q2
+current state q2 : input : 1 -> new state  : q3
+current state q3 : input : 1 -> new state  : q3
+current state q3 : input : 0 -> new state  : q3
+current state q3 : input : 1 -> new state  : q3
+01011101 ACCEPTED
+current state q0 : input : 1 -> new state  : q1
+current state q1 : input : 0 -> new state  : q1
+current state q1 : input : 1 -> new state  : q2
+current state q2 : input : 0 -> new state  : q2
+1010 REJECTED
+current state q0 : input : 0 -> new state  : q0
+current state q0 : input : 1 -> new state  : q1
+current state q1 : input : 1 -> new state  : q2
+current state q2 : input : 0 -> new state  : q2
+current state q2 : input : 0 -> new state  : q2
+01100 REJECTED
